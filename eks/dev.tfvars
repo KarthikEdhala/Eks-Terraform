@@ -23,7 +23,7 @@ cluster-version            = "1.33"
 cluster-name               = "eks-cluster"
 endpoint-private-access    = true
 endpoint-public-access     = false
-ondemand_instance_types    = ["t3a.medium"]
+ondemand_instance_types = ["t3.medium"]
 spot_instance_types = [
   "t3.medium",
   "t3.large",
